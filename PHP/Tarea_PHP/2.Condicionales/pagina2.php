@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Condicionales</title>
+    <title>Digitos</title>
 </head>
 <body>
     <?php
-    $valor = rand(1, 10);
-    echo "El valor sorteado es $valor<br>";
-    if ($valor <= 5){
-        echo "es menor o igual a 5";
-    }else{
-        echo "Es mayor a 5";
+    $valor = rand(1,100);
+
+    echo "El numero es : $valor <br>";
+    if ($valor <= 9){
+        echo "El numero es de un digito";
+    } else if ($valor < 100){
+        echo "El numero es de dos digitos";
+    } else{
+        echo "El numero es de tres digitos";
     }
     ?>
 </body>

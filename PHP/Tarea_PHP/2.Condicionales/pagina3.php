@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digitos</title>
+    <title>Problema propuesto</title>
 </head>
 <body>
     <?php
-    $valor = rand(1,100);
+        $valor = rand(1, 3);
 
-    echo "El numero es : $valor <br>";
-    if ($valor <= 9){
-        echo "El numero es de un digito";
-    } else if ($valor < 100){
-        echo "El numero es de dos digitos";
-    } else{
-        echo "El numero es de tres digitos";
-    }
+        if ($valor == 1){
+            echo "$valor - uno";
+        }else if ($valor == 2){
+            echo "$valor - dos";
+        }else{
+            echo "$valor - tres";
+        }
     ?>
 </body>
 </html>

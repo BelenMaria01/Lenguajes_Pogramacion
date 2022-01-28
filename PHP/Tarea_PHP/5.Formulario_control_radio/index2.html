@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index2.html</title>
+</head>
+<body>
+    <h5>
+        Solicitar que se ingrese por teclado el nombre de
+        una persona y disponer tres controles de tipo radio
+        que nos permitan seleccionar si la persona: 1 no
+        tiene estudios, 2 estudios primarios y 3 estudios
+        secundarios.
+        En la página que procesa el formulario mostrar el
+        nombre de la persona y un mensaje indicando el
+        tipo de estudios que posee.
+    </h5>
+
+    <form action="pagina2.php" method="post">
+        Ingrese Nombre:
+        <input type="text" name="nombre">
+        <br>
+        Estudios:
+        <br>
+        <input type="radio" name="radio1" value="sin">No tiene estudios
+        <br>
+        <input type="radio" name="radio1" value="primario">Estudio Primario
+        <br>
+        <input type="radio" name="radio1" value="secundario">Estudio Secundario
+        <br>
+        <input type="submit" name="confirmar">
+    </form>
+</body>
+</html>
