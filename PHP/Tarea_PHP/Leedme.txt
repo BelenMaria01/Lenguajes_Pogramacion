@@ -1,0 +1,3 @@
+Usamos el WAMP de Bitnami, cuando usamos el PHP debe de tener el servidor activado y las carpetas debe de esta en C:\Bitnami\wampstack-8.0.15-0\apache2\htdocs.
+
+Para usarlo hay que poner en el navegador localhost/carpetadentrodehtdoc/pagina.php o pagina.html
