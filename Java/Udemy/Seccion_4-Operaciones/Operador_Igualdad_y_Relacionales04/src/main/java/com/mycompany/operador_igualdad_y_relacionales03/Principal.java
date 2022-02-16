@@ -39,5 +39,21 @@ public class Principal {
         boolean j = a <= b;
         System.out.println("a es menor o igual que b: " + j);
 
+        // Igual ==
+        if ( a % 2 == 0){
+            System.out.println("Es par");
+        }else{
+            System.out.println("Es impar");
+        }
+        
+        int edad = 30;
+        int adulto = 10;
+
+        if (edad >= adulto){
+            System.out.println("Es un adulto");
+        }else {
+            System.out.println("Es menor de edad");
+        }
+
     }
 }
