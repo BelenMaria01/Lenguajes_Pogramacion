@@ -1,0 +1,1 @@
+Hay algunos actividades que me resultado monótono y fácil, así que estoy haciendo por mi cuenta algunas tareas, pero eso no quiere decir que nunca suba sus soluciones.
